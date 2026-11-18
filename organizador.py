@@ -18,6 +18,7 @@ for ficheiro in pasta.iterdir():
         contador = contador + 1
         print("Nome:", ficheiro.name)
         print("Extensão:", ficheiro.suffix)
+        print("Tamanho:", ficheiro.stat().st_size, "bytes")
         if ficheiro.suffix in [".py", ".txt", ".csv"]:
            print("Ficheiro identificado:", ficheiro.suffix)
 print("Total de ficheiros:", contador)
