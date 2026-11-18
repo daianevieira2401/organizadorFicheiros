@@ -1,0 +1,1 @@
+o vim é um editor de texto utilizado na linha de comando.*;(3)
